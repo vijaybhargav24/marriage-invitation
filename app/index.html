@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/angular-fontselect/dist/angular-fontselect.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Delius+Swash+Caps" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster+Two" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Syncopate" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Black+Ops+One" />
+    <!-- endbuild -->
+</head>
+
+<body ng-app="vijayWedsAmmuuuuApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div ng-controller="AppCtrl as app" id="wrapper">
+        <div class="row">
+            <div class="columns">
+                <div class="sub-div">
+                    <!-- Add your site or application content here -->
+                    <image src="images/mainFluit.jpeg" class="image-fluit"></image>
+                    <div class="show-invitation" ng-show="app.showInvi" style="border-style: solid;
+    border-width: 5px;">
+
+                        <div ng-show="app.showIcons">
+                            <ng-view></ng-view>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="columns">
+                <div class="icons" ng-show="app.showIcons">
+                    <button type="button" class="btn btn-default" aria-label="Left Align" ng-click="app.changeView('')">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </button>
+                    <button type="button" class="btn btn-default" aria-label="Left Align" ng-click="app.changeView('eventDate')">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </button>
+                    <button type="button" class="btn btn-default" aria-label="Left Align" ng-click="app.changeView('dinner')">
+                        <span class="glyphicon glyphicon-glass"></span>
+                    </button>
+                    <button type="button" class="btn btn-default" aria-label="Left Align" ng-click="app.changeView('gallery')">
+                        <span class="glyphicon glyphicon-picture"></span>
+                    </button>
+                    <button type="button" class="btn btn-default" aria-label="Left Align" ng-click="app.changeView('contact')">
+                        <span class="glyphicon glyphicon-phone-alt"></span>
+                    </button>
+                    <button type="button" class="btn btn-default" aria-label="Left Align" ng-click="app.changeView('location')">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+        ! function (A, n, g, u, l, a, r) {
+            A.GoogleAnalyticsObject = l, A[l] = A[l] || function () {
+                    (A[l].q = A[l].q || []).push(arguments)
+                }, A[l].l = +new Date, a = n.createElement(g),
+                r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+        }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/raphael/raphael.js"></script>
+    <script src="bower_components/angular-fontselect/dist/libs/webfontloader.js"></script>
+    <script src="bower_components/angular-fontselect/dist/angular-fontselect.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script type="application/javascript">
+        var Inliner = require('inliner');
+
+        new Inliner('http://remysharp.com', function (error, html) {
+            // compressed and inlined HTML page
+            console.log(html);
+        });
+    </script>
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/gallery.js"></script>
+    <!--<script src="scripts/envolope.directive.js"></script>-->
+    <script src="scripts/font.js"></script>
+    <script src="scripts/controllers/app.controller.js"></script>
+    <script src="scripts/controllers/location.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.10.3/TweenMax.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'E:\\MyProjects\\VijayWedsAmmuuuu',
+6 verbose install   [ 'autoprefixer-core',
+6 verbose install     'grunt',
+6 verbose install     'grunt-angular-templates',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-filerev',
+6 verbose install     'grunt-google-cdn',
+6 verbose install     'grunt-jscs',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-newer',
+6 verbose install     'grunt-ng-annotate',
+6 verbose install     'grunt-postcss',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-usemin',
+6 verbose install     'grunt-wiredep',
+6 verbose install     'jit-grunt',
+6 verbose install     'jshint-stylish',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-phantomjs-launcher',
+6 verbose install     'time-grunt' ] ]
+7 info preinstall vijaywedsammuuuu@
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping autoprefixer-core@^5.2.1 E:\MyProjects\VijayWedsAmmuuuu
+10 verbose already installed skipping grunt@^0.4.5 E:\MyProjects\VijayWedsAmmuuuu
+11 verbose already installed skipping grunt-angular-templates@^0.5.7 E:\MyProjects\VijayWedsAmmuuuu
+12 verbose already installed skipping grunt-concurrent@^1.0.0 E:\MyProjects\VijayWedsAmmuuuu
+13 verbose already installed skipping grunt-contrib-clean@^0.6.0 E:\MyProjects\VijayWedsAmmuuuu
+14 verbose already installed skipping grunt-contrib-concat@^0.5.0 E:\MyProjects\VijayWedsAmmuuuu
+15 verbose already installed skipping grunt-contrib-connect@^0.9.0 E:\MyProjects\VijayWedsAmmuuuu
+16 verbose already installed skipping grunt-contrib-copy@^0.7.0 E:\MyProjects\VijayWedsAmmuuuu
+17 verbose already installed skipping grunt-contrib-cssmin@^0.12.0 E:\MyProjects\VijayWedsAmmuuuu
+18 verbose already installed skipping grunt-contrib-htmlmin@^0.4.0 E:\MyProjects\VijayWedsAmmuuuu
+19 verbose cache add [ 'grunt-contrib-imagemin@4.0.0', null ]
+20 verbose cache add name=undefined spec="grunt-contrib-imagemin@4.0.0" args=["grunt-contrib-imagemin@4.0.0",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'grunt-contrib-imagemin@4.0.0',
+21 verbose parsed url   path: 'grunt-contrib-imagemin@4.0.0',
+21 verbose parsed url   href: 'grunt-contrib-imagemin@4.0.0' }
+22 verbose already installed skipping grunt-contrib-jshint@^0.11.0 E:\MyProjects\VijayWedsAmmuuuu
+23 verbose already installed skipping grunt-contrib-uglify@^0.7.0 E:\MyProjects\VijayWedsAmmuuuu
+24 verbose already installed skipping grunt-contrib-watch@^0.6.1 E:\MyProjects\VijayWedsAmmuuuu
+25 verbose already installed skipping grunt-filerev@^2.1.2 E:\MyProjects\VijayWedsAmmuuuu
+26 verbose already installed skipping grunt-google-cdn@^0.4.3 E:\MyProjects\VijayWedsAmmuuuu
+27 verbose already installed skipping grunt-jscs@^1.8.0 E:\MyProjects\VijayWedsAmmuuuu
+28 verbose cache add name="grunt-contrib-imagemin" spec="4.0.0" args=["grunt-contrib-imagemin","4.0.0"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '4.0.0',
+29 verbose parsed url   path: '4.0.0',
+29 verbose parsed url   href: '4.0.0' }
+30 verbose addNamed [ 'grunt-contrib-imagemin', '4.0.0' ]
+31 verbose addNamed [ '4.0.0', '4.0.0' ]
+32 silly lockFile 0ed1cfd9-grunt-contrib-imagemin-4-0-0 grunt-contrib-imagemin@4.0.0
+33 verbose lock grunt-contrib-imagemin@4.0.0 C:\Users\sony\AppData\Roaming\npm-cache\0ed1cfd9-grunt-contrib-imagemin-4-0-0.lock
+34 verbose request where is /grunt-contrib-imagemin
+35 verbose request registry https://registry.npmjs.org/
+36 verbose request id ffc72ec4355d1ea7
+37 verbose url raw /grunt-contrib-imagemin
+38 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-imagemin' ]
+39 verbose url resolved https://registry.npmjs.org/grunt-contrib-imagemin
+40 verbose request where is https://registry.npmjs.org/grunt-contrib-imagemin
+41 info trying registry request attempt 1 at 08:54:55
+42 verbose etag "DNM189U1TTFX3KNENLQJAX74J"
+43 http GET https://registry.npmjs.org/grunt-contrib-imagemin
+44 verbose already installed skipping grunt-karma@* E:\MyProjects\VijayWedsAmmuuuu
+45 verbose already installed skipping grunt-newer@^1.1.0 E:\MyProjects\VijayWedsAmmuuuu
+46 verbose already installed skipping grunt-ng-annotate@^0.9.2 E:\MyProjects\VijayWedsAmmuuuu
+47 verbose already installed skipping grunt-postcss@^0.5.5 E:\MyProjects\VijayWedsAmmuuuu
+48 verbose already installed skipping grunt-svgmin@^2.0.0 E:\MyProjects\VijayWedsAmmuuuu
+49 verbose already installed skipping grunt-usemin@^3.0.0 E:\MyProjects\VijayWedsAmmuuuu
+50 verbose already installed skipping grunt-wiredep@^2.0.0 E:\MyProjects\VijayWedsAmmuuuu
+51 verbose already installed skipping jit-grunt@^0.9.1 E:\MyProjects\VijayWedsAmmuuuu
+52 verbose already installed skipping jshint-stylish@^1.0.0 E:\MyProjects\VijayWedsAmmuuuu
+53 verbose already installed skipping karma-jasmine@* E:\MyProjects\VijayWedsAmmuuuu
+54 verbose already installed skipping karma-phantomjs-launcher@* E:\MyProjects\VijayWedsAmmuuuu
+55 verbose already installed skipping time-grunt@^1.0.0 E:\MyProjects\VijayWedsAmmuuuu
+56 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+57 silly registry.get cb [ 304,
+57 silly registry.get   { date: 'Wed, 02 Dec 2015 03:24:57 GMT',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     'cache-control': 'max-age=60',
+57 silly registry.get     etag: '"DNM189U1TTFX3KNENLQJAX74J"',
+57 silly registry.get     age: '16',
+57 silly registry.get     connection: 'keep-alive',
+57 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+57 silly registry.get     'x-cache': 'HIT',
+57 silly registry.get     'x-cache-hits': '2',
+57 silly registry.get     'x-timer': 'S1449026697.151111,VS0,VE0',
+57 silly registry.get     vary: 'Accept' } ]
+58 verbose etag https://registry.npmjs.org/grunt-contrib-imagemin from cache
+59 silly lockFile 0ed1cfd9-grunt-contrib-imagemin-4-0-0 grunt-contrib-imagemin@4.0.0
+60 silly lockFile 0ed1cfd9-grunt-contrib-imagemin-4-0-0 grunt-contrib-imagemin@4.0.0
+61 error Error: version not found: grunt-contrib-imagemin@4.0.0
+61 error     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\add-named.js:125:12
+61 error     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:167:7)
+61 error     at Object.oncomplete (fs.js:107:15)
+62 error If you need help, you may report this *entire* log,
+62 error including the npm and node versions, at:
+62 error     <http://github.com/npm/npm/issues>
+63 error System Windows_NT 6.2.9200
+64 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+65 error cwd E:\MyProjects\VijayWedsAmmuuuu
+66 error node -v v0.10.33
+67 error npm -v 1.4.28
+68 verbose exit [ 1, true ]
